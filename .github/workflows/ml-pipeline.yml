@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: read
+  packages: write
 
 concurrency:
   group: ml-ci-${{ github.workflow }}-${{ github.ref }}
