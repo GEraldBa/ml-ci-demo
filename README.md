@@ -95,8 +95,14 @@ git push -u origin main
 
 Hinweis: Ein neu veröffentlichtes GHCR-Package kann privat sein. Zum lokalen Pull ist dann eine Authentifizierung erforderlich oder die Package-Sichtbarkeit muss angepasst werden.
 
-## Didaktische Fehlerdemo
+## erster Deploy schlägt fehl
+Mein Code funktioniert möglicherweise, aber unsere Quality Gate sagt: Er entspricht nicht unseren definierten Coding Standards. Deshalb schlägt die Pipeline fehl.
 
+1. python -m ruff check --fix src tests           
+und zeigen, dass Ruff viele Probleme automatisch korrigieren kann.
+
+
+## Fehlerdemo
 Die vollständige Schrittfolge steht in [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md). Kernidee:
 
 1. Feature-Branch erstellen.
