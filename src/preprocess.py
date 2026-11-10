@@ -8,4 +8,4 @@ def tokenize_text(text: str) -> list[str]:
     empty or whitespace-only string.
     New Change on : Docker
     """
-    return text.upper().split()
+    return text.lower().split()
