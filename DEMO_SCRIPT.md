@@ -1,13 +1,9 @@
 # Live-Demo: GitHub Actions für eine Python-/ML-nahe Pipeline
-
 ## Ziel und Dauer
-
 - Ziel: Den Weg von einer Codeänderung bis zum veröffentlichten Container-Image zeigen.
-- Empfohlene Dauer: 25–30 Minuten.
 - Story: **grün → absichtlich rot → Diagnose → Fix → grün → Merge → Publish**.
 
 ## Vor der Lehrveranstaltung vorbereiten
-
 1. Python 3.11, Git und Docker lokal prüfen.
 2. Repository auf GitHub anlegen.
 3. Projektdateien einmal lokal vollständig ausführen.
